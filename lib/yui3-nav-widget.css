@@ -30,7 +30,9 @@ li:hover { position:relative; z-index:2000; }
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li ul li { min-width: 150px }
+
 .yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
+.yui3-nav-widget .yui3-nav-widget-content li > ul.yui3-nav-widget-active,
 .yui3-nav-widget .yui3-nav-widget-content li:focus > ul { 
 	display:block; 
 	z-index:2000; 
@@ -38,7 +40,7 @@ li:hover { position:relative; z-index:2000; }
 
 .yui3-nav-widget .yui3-nav-widget-content li a {
 	display: block;
-	padding: 2px 5px;
+	padding: 5px 10px;
 	text-decoration: none;
 	color: #000
 }
