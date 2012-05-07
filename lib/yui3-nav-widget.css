@@ -1,10 +1,16 @@
 .yui3-nav-widget .yui3-nav-widget-content {list-style:none;}
+.yui3-nav-widget .yui3-nav-widget-content li a,
 .yui3-nav-widget .yui3-nav-widget-content li {
 	float: left;
 	position: relative;
 	list-style: none;
-	min-width: 200px
+	min-width: 200px;
+	display: block;
+	padding: 5px 10px;
+	color: #000
 }
+
+.yui3-nav-widget .yui3-nav-widget-content li a { text-decoration: none; }
 
 .yui3-nav-widget .yui3-nav-widget-content li ul {
 	display: none;
@@ -24,12 +30,6 @@
 	z-index:2000; 
 }
 
-.yui3-nav-widget .yui3-nav-widget-content li a {
-	display: block;
-	padding: 5px 10px;
-	text-decoration: none;
-	color: #000
-}
 
 .yui3-nav-widget .yui3-nav-widget-content li ul { background:#000 }
 .yui3-nav-widget .yui3-nav-widget-content li ul a { color:#fff }
