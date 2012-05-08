@@ -24,8 +24,16 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	font-family: Arial, tahoma, sans-serif;
+	font-size: 12px
 }
 ol, ul {
 	list-style: none;
 }
+
+h2 {
+	font-size: 32px;
+	margin-top:200px
+}
+h2:first-child {margin-top:0}
+.container {padding-bottom:200px}

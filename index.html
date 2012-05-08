@@ -14,10 +14,10 @@
 
 			<h2>Example 1 (Markup HTML)</h2>
 			<ul id="nav">
-				<li><a href="#menu1" tabindex="1">Menu 1</a>
+				<li class="yui3-nav-widget-indicator"><a href="#menu1" tabindex="1">Menu 1</a>
 					<ul>
 						<li><a href="#menu2">asd</a></li>
-						<li>
+						<li class="yui3-nav-widget-indicator">
 							<a href="#menu3">Menu 2</a>
 							<ul>
 								<li><a href="#">Menu 1</a></li>
@@ -25,16 +25,16 @@
 							</ul>
 						</li>
 						<li><a href="#menu4">SEPARA</a></li>
-						<li><a href="#">Menu 4</a>
+						<li class="yui3-nav-widget-indicator"><a href="#">Menu 4</a>
 							<ul>
 								<li><a href="#0">Menu 1</a></li>
 								<li><a href="#1">Menu 2</a></li>
 								<li><a href="#2">Menu 3</a></li>
-								<li><a href="#3">Menu 4</a>
+								<li class="yui3-nav-widget-indicator"><a href="#3">Menu 4</a>
 									<ul>
 										<li><a href="#">Menu 1</a></li>
 										<li><a href="#">Menu 2</a></li>
-										<li>
+										<li class="yui3-nav-widget-indicator">
 											<a href="#">Menu 3</a>
 											<ul>
 												<li><a href="#0">Menu 1</a></li>
@@ -63,8 +63,30 @@
 			<br clear="all" />
 			<h2>Example 2 (JSON)</h2>
 			<div id="load-menu-here"></div>
+			
+			
+			<br clear="all" />
+			<h2>Example 3 (Orientation Vertical)</h2>
+			<ul id="vertical-example">
+				<li><a href="#0">Menu 1</a></li>
+				<li><a href="#1">Menu 2</a></li>
+				<li><a href="#2">Menu 3</a></li>
+				<li class="yui3-nav-widget-indicator"><a href="#3">Menu 4</a>
+					<ul>
+						<li><a href="#">Menu 1</a></li>
+						<li><a href="#">Menu 2</a></li>
+						<li class="yui3-nav-widget-indicator">
+							<a href="#">Menu 3</a>
+							<ul>
+								<li><a href="#0">Menu 1</a></li>
+								<li><a href="#1">Menu 2</a></li>
+								<li><a href="#2">Menu 3</a></li>
+								<li><a href="#3">Menu 4</a>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
 		</div><!-- /container -->
-		
-		<div id="aa"></div>
 	</body>
 </html>
