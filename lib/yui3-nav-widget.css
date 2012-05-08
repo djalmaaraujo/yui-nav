@@ -6,7 +6,6 @@
 	list-style: none;
 	min-width: 200px;
 	display: block;
-	padding: 5px 10px;
 	color: #000
 }
 
@@ -21,7 +20,10 @@
 	padding: 0
 }
 
-.yui3-nav-widget .yui3-nav-widget-content li ul li { min-width: 150px }
+.yui3-nav-widget .yui3-nav-widget-content li ul li { 
+	min-width: 150px;
+	color: #fff
+}
 
 .yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
 .yui3-nav-widget .yui3-nav-widget-content li > ul.yui3-nav-widget-active,
