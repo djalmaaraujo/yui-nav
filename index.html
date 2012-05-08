@@ -6,88 +6,62 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="http://yui.yahooapis.com/3.4.1/build/yui/yui-min.js"></script>
 		<script src="lib/yui3-nav-widget.js"></script>
-		<script type="text/javascript" charset="utf-8">
-			/**
-			 * Recusive JSON parser (TRASH CODE)
-			 *
-			 */
-			// _recursiveAttachJson: function (container, instance) {
-			// 	ul = Node.create('<ul/>');
-			// 	
-			// 	Y.Array.each(container, function (index, value) {
-			// 	
-			// 		li = Node.create('<li/>')
-			// 		a = Node.create('<a/>').set('href', index.url).set('text', index.text);
-			// 		li.append(a);
-			// 
-			// 		if (Y.Lang.isObject(index.urls, true)) {
-			// 			var sub = instance._recursiveAttachJson(index.urls, instance);
-			// 			li.append(sub);
-			// 		}
-			// 		
-			// 		ul.append(li);
-			// 	});
-			// 	
-			// 	this.outputHTML.append(ul);
-			// },
-
-		</script>
 	</head>
 
 	<body>
 		<div class="container">
-			
+
 			<h2>Example 1 (Markup HTML)</h2>
 			<ul id="nav">
-			    <li><a href="#menu1" tabindex="1">Menu 1</a>
-			        <ul>
-			            <li><a href="#menu2">asd</a></li>
-			            <li>
+				<li><a href="#menu1" tabindex="1">Menu 1</a>
+					<ul>
+						<li><a href="#menu2">asd</a></li>
+						<li>
 							<a href="#menu3">Menu 2</a>
 							<ul>
-					            <li><a href="#">Menu 1</a></li>
-					            <li><a href="#">Menu 2</a></li>
+								<li><a href="#">Menu 1</a></li>
+								<li><a href="#">Menu 2</a></li>
 							</ul>
 						</li>
-			            <li><a href="#menu4">SEPARA</a></li>
-			            <li><a href="#">Menu 4</a>
-				        <ul>
-				            <li><a href="#0">Menu 1</a></li>
-				            <li><a href="#1">Menu 2</a></li>
-				            <li><a href="#2">Menu 3</a></li>
-				            <li><a href="#3">Menu 4</a>
-								<ul>
-						            <li><a href="#">Menu 1</a></li>
-						            <li><a href="#">Menu 2</a></li>
-						            <li>
-										<a href="#">Menu 3</a>
-										<ul>
-								            <li><a href="#0">Menu 1</a></li>
-								            <li><a href="#1">Menu 2</a></li>
-								            <li><a href="#2">Menu 3</a></li>
-								            <li><a href="#3">Menu 4</a>
+						<li><a href="#menu4">SEPARA</a></li>
+						<li><a href="#">Menu 4</a>
+							<ul>
+								<li><a href="#0">Menu 1</a></li>
+								<li><a href="#1">Menu 2</a></li>
+								<li><a href="#2">Menu 3</a></li>
+								<li><a href="#3">Menu 4</a>
+									<ul>
+										<li><a href="#">Menu 1</a></li>
+										<li><a href="#">Menu 2</a></li>
+										<li>
+											<a href="#">Menu 3</a>
+											<ul>
+												<li><a href="#0">Menu 1</a></li>
+												<li><a href="#1">Menu 2</a></li>
+												<li><a href="#2">Menu 3</a></li>
+												<li><a href="#3">Menu 4</a>
+												</ul>
+											</li>
 										</ul>
 									</li>
-								</ul>
-							</li>
-				        </ul>			
-				    </li>
-			        </ul>
-			    </li>
-			    <li><a href="#">Menu 2</a></li>
-			    <li>
-					<a href="#">Menu 3</a>
-					<ul>
-			            <li><a href="#">Menu 1</a></li>
-			            <li><a href="#">Menu 2</a></li>
+							</ul>			
+						</li>
 					</ul>
 				</li>
-			    <li><a href="#">Menu 4</a></li>
+				<li><a href="#">Menu 2</a></li>
+				<li>
+					<a href="#">Menu 3</a>
+					<ul>
+						<li><a href="#">Menu 1</a></li>
+						<li><a href="#">Menu 2</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Menu 4</a></li>
 			</ul>
-			
+
 			<br clear="all" />
 			<h2>Example 2 (JSON)</h2>
 			<div id="load-menu-here"></div>
-		</div> <!-- /container -->
+		</div><!-- /container -->
 	</body>
 </html>
