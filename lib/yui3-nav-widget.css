@@ -1,28 +1,33 @@
 .yui3-nav-widget .yui3-nav-widget-content {list-style:none;}
-.yui3-nav-widget .yui3-nav-widget-content li a,
 .yui3-nav-widget .yui3-nav-widget-content li {
 	float: left;
 	position: relative;
 	list-style: none;
-	min-width: 200px;
-	display: block;
-	color: #000
+/*	min-width: 200px;*/
 }
 
-.yui3-nav-widget .yui3-nav-widget-content li a { text-decoration: none; }
+.yui3-nav-widget .yui3-nav-widget-content li a,
+.yui3-nav-widget .yui3-nav-widget-content li {
+	color: #000
+}
+.yui3-nav-widget .yui3-nav-widget-content li a { 
+	text-decoration: none; 
+	display: block;
+}
 
 .yui3-nav-widget .yui3-nav-widget-content li ul {
 	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 0.7em 0 0 3em;
-	padding: 0
+	margin: 15px 0 0 40px;
+	background:#ff9999 
 }
-
 .yui3-nav-widget .yui3-nav-widget-content li ul li { 
-	min-width: 150px;
-	color: #fff
+	text-align: left;
+	min-width: 120px;
+	color: #fff;
+	border-bottom:1px solid #ccc
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
@@ -33,5 +38,13 @@
 }
 
 
-.yui3-nav-widget .yui3-nav-widget-content li ul { background:#000 }
-.yui3-nav-widget .yui3-nav-widget-content li ul a { color:#fff }
+.yui3-nav-widget .yui3-nav-widget-content li ul li a {
+/*	padding: 2px;*/
+	color:#fff 
+}
+
+/* Vertical Options */
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical {}
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul {margin-top:0}
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li, 
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li a {float: none}
