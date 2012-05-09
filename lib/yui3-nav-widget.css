@@ -1,29 +1,22 @@
 .yui3-nav-widget {}
-.yui3-nav-widget .yui3-nav-widget-content {
-	list-style:none;
-}
+.yui3-nav-widget .yui3-nav-widget-content {list-style:none}
 .yui3-nav-widget .yui3-nav-widget-content li {
 	float: left;
 	position: relative;
 	list-style: none;
 }
+
 .yui3-nav-widget .yui3-nav-widget-content li.yui3-nav-widget-indicator {
 	background-image: url(../images/horizontal-submenu-indicator.png);
 	background-repeat: no-repeat;
 	background-position:right center;
-	padding-right: 20px
+	padding-right: 10px
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li a,
-.yui3-nav-widget .yui3-nav-widget-content li {
-	color: #000;
-	margin-right:5px
-}
+.yui3-nav-widget .yui3-nav-widget-content li { margin-right:5px }
 
-.yui3-nav-widget .yui3-nav-widget-content li a { 
-	text-decoration: none; 
-	color:#000;
-}
+.yui3-nav-widget .yui3-nav-widget-content li a { text-decoration: none }
 
 .yui3-nav-widget .yui3-nav-widget-content li ul {
 	display: none;
@@ -32,11 +25,7 @@
 	left: 0;
 	margin: 24px 0 0 3em;
 }
-.yui3-nav-widget .yui3-nav-widget-content li ul li { 
-	text-align: left;
-	min-width: 120px;
-	color: #000;
-}
+.yui3-nav-widget .yui3-nav-widget-content li ul li { text-align: left }
 
 .yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
 .yui3-nav-widget .yui3-nav-widget-content li > ul.yui3-nav-widget-active,
@@ -45,51 +34,17 @@
 	z-index:2000; 
 }
 
-
-.yui3-nav-widget .yui3-nav-widget-content li ul li a {
-/*	padding: 2px;*/
-	color:#0074CC 
-}
+.yui3-nav-widget .yui3-nav-widget-content li ul li a {}
 
 /* Vertical Options */
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical {}
-.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li {
-	display: block;
-	width: 100px
-}
-.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li.yui3-nav-widget-indicator {
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li {display: block}
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul li.yui3-nav-widget-indicator {
 	background-image: url(../images/vertical-submenu-indicator.png);
 	background-repeat: no-repeat;
 	background-position:right center;
-	padding-right: 20px
+	padding-right: 10px
 }
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul {margin-top:0}
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li, 
-.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li a {
-	float: none;
-}
-
-
-/**
- * Styling
- *
- */
-
-.yui3-nav-widget .yui3-nav-widget-content li {
-	padding: 5px 10px;
-	background-color: #e5e5e5;
-	background-image: -moz-linear-gradient(top, #e5e5e5, #ccc);
-	background-image: -ms-linear-gradient(top, #e5e5e5, #ccc);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#ccc));
-	background-image: -webkit-linear-gradient(top, #e5e5e5, #ccc);
-	background-image: -o-linear-gradient(top, #e5e5e5, #ccc);
-	background-image: linear-gradient(top, #e5e5e5, #ccc);
-	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ccc', GradientType=0);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-	box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-}
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li a { float: none }
