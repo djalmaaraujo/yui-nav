@@ -6,11 +6,15 @@
 	list-style: none;
 }
 
+.yui3-nav-widget .yui3-nav-widget-content > li.yui3-nav-widget-indicator {
+  background-image: url(../images/horizontal-submenu-indicator.png) !important;
+}
+
 .yui3-nav-widget .yui3-nav-widget-content li.yui3-nav-widget-indicator {
-	background-image: url(../images/horizontal-submenu-indicator.png);
+	background-image: url(../images/vertical-submenu-indicator.png);
 	background-repeat: no-repeat;
 	background-position:right center;
-	padding-right: 10px
+	padding-right: 5px
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li a,
@@ -23,7 +27,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 24px 0 0 3em;
+	margin: 5px 0 0 4em;
 }
 .yui3-nav-widget .yui3-nav-widget-content li ul li { text-align: left }
 
@@ -40,7 +44,7 @@
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical {}
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li {display: block}
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul li.yui3-nav-widget-indicator {
-	background-image: url(../images/vertical-submenu-indicator.png);
+	
 	background-repeat: no-repeat;
 	background-position:right center;
 	padding-right: 10px
