@@ -1,0 +1,86 @@
+body {padding-top:80px}
+
+.yui3-nav-widget .yui3-nav-widget-content li {
+  margin-left:-15px
+  border-bottom:1px solid #ccc;
+}
+.yui3-nav-widget .yui3-nav-widget-content li:hover {
+  background-color:#ccc;
+  margin-left:-15px;
+  padding-left:15px
+}
+.yui3-nav-widget .yui3-nav-widget-content li a {
+  line-height:30px;
+}
+.yui3-nav-widget .yui3-nav-widget-content li ul {
+	position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  padding: 4px 0;
+  margin: 0 0 0 100% !important;
+  list-style: none;
+  background-color: #ccc;
+  border-color: #CCC;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.yui3-nav-widget .yui3-nav-widget-content li ul ul{
+  display: none;
+  margin: 0 0 0 100% !important;
+}
+  
+
+.yui3-nav-widget .yui3-nav-widget-content li ul li { 
+	text-align: left;
+	min-width: 120px;
+	color: #000;
+	margin-left:0 !important;
+  padding-left:0 !important
+}
+
+.yui3-nav-widget .yui3-nav-widget-content li ul li:hover,
+.yui3-nav-widget .yui3-nav-widget-content li ul li a:hover {
+  color:#000
+}
+
+.yui3-nav-widget .yui3-nav-widget-content li ul li a {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
+.yui3-nav-widget .yui3-nav-widget-content li > ul.yui3-nav-widget-active,
+.yui3-nav-widget .yui3-nav-widget-content li:focus > ul { 
+	display:block !important;
+	z-index:2000
+}
+  
+/* Vertical Options */
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical {}
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li {
+	display: block;
+}
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul {margin-top:0}
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li, 
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li a {
+	float: none;
+}
