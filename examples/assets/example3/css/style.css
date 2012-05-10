@@ -341,42 +341,21 @@ ul img {
   color: #000;}
   
 /* nav widget config */
-.yui3-nav-widget .yui3-nav-widget-content li {
-  margin-left:-15px
-  border-bottom:1px solid #ccc;
+.yui3-nav-widget .yui3-nav-widget-content li {}
+.yui3-nav-widget .yui3-nav-widget-content li:hover {}
+
+.yui3-nav-widget .yui3-nav-widget-content li a {}
+.yui3-nav-widget .yui3-nav-widget-content li.yui3-nav-widget-indicator ul {
+  margin: 0 0 0 100%;
 }
-.yui3-nav-widget .yui3-nav-widget-content li:hover {
-  background-color:#ccc;
-  margin-left:-15px;
-  padding-left:15px
-}
-.yui3-nav-widget .yui3-nav-widget-content li a {
-  line-height:30px;
-}
+
 .yui3-nav-widget .yui3-nav-widget-content li ul {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  float: left;
   display: none;
-  padding: 4px 0;
-  margin: 0 0 0 100% !important;
-  list-style: none;
-  background-color: #ccc;
-  border-color: #CCC;
-  border-color: rgba(0, 0, 0, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  -webkit-border-radius: 0 0 5px 5px;
-  -moz-border-radius: 0 0 5px 5px;
-  border-radius: 0 0 5px 5px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px 0 0 0;
+  min-width: 150px;
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li ul ul{
@@ -384,13 +363,16 @@ ul img {
   margin: 0 0 0 100% !important;
 }
   
-
+.yui3-nav-widget .yui3-nav-widget-content > li > ul {
+  margin-top:40px !important;
+}
 .yui3-nav-widget .yui3-nav-widget-content li ul li { 
   text-align: left;
   min-width: 120px;
   color: #000;
   margin-left:0 !important;
-  padding-left:0 !important
+  padding-left:0 !important;
+  height:40px;
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li ul li:hover,
@@ -400,10 +382,8 @@ ul img {
 
 .yui3-nav-widget .yui3-nav-widget-content li ul li a {
   display: block;
-  padding: 3px 15px;
   clear: both;
   font-weight: normal;
-  line-height: 18px;
   color: #333;
   white-space: nowrap;
 }
