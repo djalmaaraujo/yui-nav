@@ -1,0 +1,350 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  background: #3B3D40;
+  color: #000;
+}
+
+p
+{ padding: 0 0 10px 0;
+  line-height: 1.7em;
+  font-size: 100% }
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% Arial, Helvetica, sans-serif;
+  color: #528CCC;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;
+  padding: 5px 0 0 0;}
+
+h2
+{ font: normal 165% Arial, Helvetica, sans-serif;}
+
+h3
+{ font: normal 100% Arial, Helvetica, sans-serif;
+}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 150% Arial, Helvetica, sans-serif;
+  color: #528CCC;
+  line-height: 1.5em;}
+
+h5, h6
+{ font: normal 95% Arial, Helvetica, sans-serif;
+  color: #888;
+  padding-bottom: 15px;}
+
+a, a:hover
+{ background: transparent;
+  outline: none;
+  text-decoration: none;
+  color: #528CCC;
+}
+
+a:hover
+{ text-decoration: underline;}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #header, #banner, #menubar, #site_content, #footer, #container_footer, #container_header
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ background: #FFF url(../images/pattern.jpg) repeat;}
+
+#header_container
+{ height: 145px;
+  background: #3B3D40;}
+
+#header
+{ width: 940px;
+  height: 145px;
+  margin-top: 50px;
+  background: #232426;
+  border-top: 1px solid #4D5054;
+  border-left: 1px solid #4D5054;
+  border-right: 1px solid #4D5054;}
+
+#banner
+{ width: 450px;
+  float: left;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 20px;}
+
+#banner H1
+{ font: normal 250% Arial, Helvetica, sans-serif;
+  color: #FFF;
+  padding-bottom: 10px;}  
+  
+#banner_slogan
+{ font: normal 80% Arial, Helvetica, sans-serif;
+  width: 450px;
+  position: relative;
+  float: right;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 20px;
+  height: 60px;}
+  
+#banner_slogan H2
+{ color: #FFF;} 
+  
+span
+{ color: #528CCC;
+  padding-bottom: 10px;}
+
+#menubar
+{ width: 920px;
+  float: left;
+  padding: 5px 0 0 20px;
+  height: 30px;} 
+  
+ul#menu
+{ 
+  margin:0 auto;}
+
+ul#menu li
+{ list-style: none;
+  display: inline;
+}
+
+ul#menu li a
+{ font: normal 110% arial, sans-serif;
+  display: inline;
+  letter-spacing: -1px;
+  height: 25px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  background-color: #FFF;
+  border: 1px solid #CBCDCF;} 
+
+ul#menu li.current
+{ }
+
+ul#menu li.current a, ul#menu li.current a:hover
+{ background: #528CCC;
+  color: #FFF;}
+
+ul#menu li a:hover
+{ color: #528CCC;}
+
+#site_content
+{ width: 920px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #CBCDCF;  
+  border-right: 1px solid #CBCDCF;  
+  background: #FFF;} 
+
+.sidebar_container
+{ float: right;
+  width: 230px;
+  margin: 20px 20px 20px 0;}
+
+.sidebar
+{ float: left;
+  width: 210px;
+  margin-bottom: 10px;}
+
+.sidebar_item
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  padding: 0 15px 0 10px;
+  width: 215px;}
+
+.sidebar h2
+{ background: #528CCC;
+  color: #FFF;
+  width: 220px;
+  padding-left: 10px;}
+  
+.sidebar h4
+{ font-size: 125%;
+  color: #000;}
+
+.sidebar ul li, .sidebar ul li.selected
+{ list-style: none; 
+  margin: 15px 0;
+  padding: 0;}
+
+.content_item
+{ width: 630px;
+  margin-top: 5px;
+  margin-bottom: 5px;}
+
+#content
+{ width: 640px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;}
+
+.content_container_color
+{ width: 300px;
+  padding: 5px;
+  float: left;
+  color: #FFF;
+  background: #528CCC;
+  margin-bottom: 10px;}
+  
+.content_container
+{ width: 300px;
+  padding: 5px;
+  float: left;
+  color: #000;
+  background: #FFF;
+  margin-bottom: 10px;}
+
+#footer_container
+{ height: 125px;
+  background: #3B3D40;}  
+  
+#footer
+{ font: normal 120% Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+  width: 940px;
+  height: 25px;
+  padding: 30px 0 26px 0;
+  text-align: center; 
+  color: #FFF;
+  background: #232426;
+  border: 1px solid #4D5054;}
+
+#footer a, #footer a:hover
+{ color: #684430;
+  text-decoration: none;
+  padding-bottom: 20px;}
+
+#footer a:hover
+{ text-decoration: underline;}
+
+#footer a, #footer a:hover
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer a:hover
+{ text-decoration: underline;}
+  
+.button_small
+{ font: normal 80% Arial, Helvetica, sans-serif;
+  height: 25px;
+  width: 80px;
+  padding: 4px 0 0 8px;
+  background: transparent url(../images/button_small.png) no-repeat;}
+  
+.button_small a
+{ color: #FFF;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 280px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings input[type="checkbox"]
+{ padding: 2px 0; 
+  width: 15px; 
+  font: 100% arial; 
+  border: 0; 
+  background: #FFF; 
+  color: #47433F;
+  margin: 28px 0;}
+
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #5082BD; 
+  color: #FFF;}
+  
+/* styling for the slideshow on the homepage */
+ul.slideshow {
+  list-style: none;
+  width: 630px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 20px;
+  padding: 0;}
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;}
+ 
+ul.slideshow li.show {
+  z-index: 500;}
+ 
+ul img {
+  border: none;}
+ 
+#slideshow-caption {
+  width: 600px;
+  height: 210px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 500;}
+ 
+#slideshow-caption .slideshow-caption-container {
+  padding: 20px 25px 0 5px;   
+  z-index: 1000;}
+ 
+#slideshow-caption p {
+  padding: 0;
+  font: normal 130% georgia, sans-serif;
+  color: #000;}
+  
+/* nav widget config */
+.yui3-nav-widget .yui3-nav-widget-content li ul {
+  min-width: 160px;
+  margin: 5px 0 0 100% !important;
+}
+.yui3-nav-widget .yui3-nav-widget-content li ul li {
+  min-height: 40px
+}
