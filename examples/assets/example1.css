@@ -39,6 +39,11 @@ body {padding-top:80px}
 	color: #000;
 }
 
+.yui3-nav-widget .yui3-nav-widget-content li ul li:hover,
+.yui3-nav-widget .yui3-nav-widget-content li ul li a:hover {
+  color:#08c
+}
+
 .yui3-nav-widget .yui3-nav-widget-content li ul li a {
   display: block;
   padding: 3px 15px;
