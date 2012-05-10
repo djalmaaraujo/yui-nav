@@ -4,6 +4,7 @@
 	float: left;
 	position: relative;
 	list-style: none;
+	line-height: 20px;
 }
 
 .yui3-nav-widget .yui3-nav-widget-content > li.yui3-nav-widget-indicator {
@@ -14,7 +15,7 @@
 	background-image: url(../images/vertical-submenu-indicator.png);
 	background-repeat: no-repeat;
 	background-position:right center;
-	padding-right: 5px
+	padding-right: 15px
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li a,
@@ -22,19 +23,24 @@
 
 .yui3-nav-widget .yui3-nav-widget-content li a { text-decoration: none }
 
+.yui3-nav-widget .yui3-nav-widget-content li.yui3-nav-widget-indicator ul {
+	margin: 0 0 0 100%;
+}
+
 .yui3-nav-widget .yui3-nav-widget-content li ul {
 	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 5px 0 0 4em;
+	margin: 20px 0 0 0;
+	min-width: 150px;
 }
 .yui3-nav-widget .yui3-nav-widget-content li ul li { text-align: left }
 
 .yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
 .yui3-nav-widget .yui3-nav-widget-content li > ul.yui3-nav-widget-active,
 .yui3-nav-widget .yui3-nav-widget-content li:focus > ul { 
-	display:block !important;
+	display:block;
 	z-index:2000; 
 }
 
