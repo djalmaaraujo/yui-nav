@@ -1,2 +1,2 @@
-h1. YUI Playground
+h1. Nav YUI
 
