@@ -28,6 +28,7 @@ body {padding-top:80px}
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li ul ul{
+  display: none;
   margin: 0 0 0 100% !important;
 }
   
