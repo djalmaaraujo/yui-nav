@@ -39,9 +39,9 @@
 
 .yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
 .yui3-nav-widget .yui3-nav-widget-content li > ul.yui3-nav-widget-active,
-.yui3-nav-widget .yui3-nav-widget-content li:focus > ul { 
+.yui3-nav-widget .yui3-nav-widget-content li:focus > ul {
 	display:block;
-	z-index:2000; 
+	z-index:2000;
 }
 
 .yui3-nav-widget .yui3-nav-widget-content li ul li a {}
@@ -50,11 +50,11 @@
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical {}
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li {display: block}
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul li.yui3-nav-widget-indicator {
-	
+
 	background-repeat: no-repeat;
 	background-position:right center;
 	padding-right: 10px
 }
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul {margin-top:0}
-.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li, 
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li,
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li a { float: none }
