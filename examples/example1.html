@@ -12,6 +12,27 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+     /**
+      *
+      * Example 1: Markup HTML Horizontal
+      *
+      */
+      YUI().use('nav-widget', function (Y) {
+        if (Y.one('#nav')) {
+        var navigation = new Y.NavWidget({
+          srcNode: '#nav',
+          dataSource: '#nav',
+          cssPath: [
+            'assets/example1.css',
+            '../lib/yui3-nav-widget.css'
+          ]
+        });
+        navigation.render();
+      }
+    });
+    </script>
   </head>
 
   <body>

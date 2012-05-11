@@ -13,6 +13,24 @@
   <!-- Nav widget -->
   <script src="http://yui.yahooapis.com/3.4.1/build/yui/yui-min.js"></script>
   <script src="../lib/yui3-nav-widget.js"></script>
+  <script type="text/javascript">
+    YUI().use('nav-widget', function (Y) {
+
+      /**
+      *
+      * Example 3: Markup HTML with a template website
+      *
+      */
+      if (Y.one('#menu')) {
+        var navTemplate = new Y.NavWidget({
+          srcNode: '#menu',
+          dataSource: '#menu',
+          cssPath: '../lib/yui3-nav-widget.css'
+        });
+        navTemplate.render();
+      }
+    });
+  </script>
 </head>
 
 <body>

@@ -15,6 +15,24 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+      YUI().use('nav-widget', function (Y) {
+        /**
+        *
+        * Example 4: Markup HTML with no style
+        *
+        */
+        if (Y.one('#example4')) {
+          var navExample4 = new Y.NavWidget({
+            srcNode: '#example4',
+            dataSource: '#example4',
+            cssPath: '../lib/yui3-nav-widget.css'
+          });
+          navExample4.render();
+        }
+      });
+    </script>
   </head>
 
   <body>
