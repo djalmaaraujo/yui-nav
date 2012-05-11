@@ -19,7 +19,7 @@ p
 img
 { border: 0;}
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
 { font: normal 175% Arial, Helvetica, sans-serif;
   color: #528CCC;
   letter-spacing: -1px;
@@ -68,7 +68,7 @@ ol li
 { margin: 0 0 11px 0;}
 
 #main, #header, #banner, #menubar, #site_content, #footer, #container_footer, #container_header
-{ margin-left: auto; 
+{ margin-left: auto;
   margin-right: auto;}
 
 #main
@@ -97,8 +97,8 @@ ol li
 #banner H1
 { font: normal 250% Arial, Helvetica, sans-serif;
   color: #FFF;
-  padding-bottom: 10px;}  
-  
+  padding-bottom: 10px;}
+
 #banner_slogan
 { font: normal 80% Arial, Helvetica, sans-serif;
   width: 450px;
@@ -108,10 +108,10 @@ ol li
   padding-top: 40px;
   padding-right: 20px;
   height: 60px;}
-  
+
 #banner_slogan H2
-{ color: #FFF;} 
-  
+{ color: #FFF;}
+
 span
 { color: #528CCC;
   padding-bottom: 10px;}
@@ -120,10 +120,10 @@ span
 { width: 920px;
   float: left;
   padding: 5px 0 0 20px;
-  height: 30px;} 
-  
+  height: 30px;}
+
 ul#menu
-{ 
+{
   margin:0 auto;}
 
 ul#menu li
@@ -141,7 +141,7 @@ ul#menu li a
   color: #000;
   text-decoration: none;
   background-color: #FFF;
-  border: 1px solid #CBCDCF;} 
+  border: 1px solid #CBCDCF;}
 
 ul#menu li.current
 { }
@@ -158,9 +158,9 @@ ul#menu li a:hover
   overflow: hidden;
   margin: 0 auto;
   padding: 0 0 0 20px;
-  border-left: 1px solid #CBCDCF;  
-  border-right: 1px solid #CBCDCF;  
-  background: #FFF;} 
+  border-left: 1px solid #CBCDCF;
+  border-right: 1px solid #CBCDCF;
+  background: #FFF;}
 
 .sidebar_container
 { float: right;
@@ -182,13 +182,13 @@ ul#menu li a:hover
   color: #FFF;
   width: 220px;
   padding-left: 10px;}
-  
+
 .sidebar h4
 { font-size: 125%;
   color: #000;}
 
 .sidebar ul li, .sidebar ul li.selected
-{ list-style: none; 
+{ list-style: none;
   margin: 15px 0;
   padding: 0;}
 
@@ -211,7 +211,7 @@ ul#menu li a:hover
   color: #FFF;
   background: #528CCC;
   margin-bottom: 10px;}
-  
+
 .content_container
 { width: 300px;
   padding: 5px;
@@ -222,15 +222,15 @@ ul#menu li a:hover
 
 #footer_container
 { height: 125px;
-  background: #3B3D40;}  
-  
+  background: #3B3D40;}
+
 #footer
 { font: normal 120% Arial, Helvetica, sans-serif;
   letter-spacing: -1px;
   width: 940px;
   height: 25px;
   padding: 30px 0 26px 0;
-  text-align: center; 
+  text-align: center;
   color: #FFF;
   background: #232426;
   border: 1px solid #4D5054;}
@@ -249,14 +249,14 @@ ul#menu li a:hover
 
 #footer a:hover
 { text-decoration: underline;}
-  
+
 .button_small
 { font: normal 80% Arial, Helvetica, sans-serif;
   height: 25px;
   width: 80px;
   padding: 4px 0 0 8px;
   background: transparent url(../images/button_small.png) no-repeat;}
-  
+
 .button_small a
 { color: #FFF;}
 
@@ -267,38 +267,38 @@ ul#menu li a:hover
 { padding: 0 0 4px 0;}
 
 .form_settings span
-{ float: left; 
-  width: 280px; 
+{ float: left;
+  width: 280px;
   text-align: left;}
-  
+
 .form_settings input, .form_settings textarea
-{ padding: 2px; 
-  width: 299px; 
-  font: 100% arial; 
-  border: 1px solid #E5E5DB; 
-  background: #FFF; 
+{ padding: 2px;
+  width: 299px;
+  font: 100% arial;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
   color: #47433F;}
-  
+
 .form_settings input[type="checkbox"]
-{ padding: 2px 0; 
-  width: 15px; 
-  font: 100% arial; 
-  border: 0; 
-  background: #FFF; 
+{ padding: 2px 0;
+  width: 15px;
+  font: 100% arial;
+  border: 0;
+  background: #FFF;
   color: #47433F;
   margin: 28px 0;}
 
 .form_settings .submit
-{ font: 100% arial; 
-  border: 1px solid; 
-  width: 99px; 
-  margin: 0 0 0 206px; 
+{ font: 100% arial;
+  border: 1px solid;
+  width: 99px;
+  margin: 0 0 0 206px;
   height: 26px;
   padding: 2px 0 3px 0;
-  cursor: pointer; 
-  background: #5082BD; 
+  cursor: pointer;
+  background: #5082BD;
   color: #FFF;}
-  
+
 /* styling for the slideshow on the homepage */
 ul.slideshow {
   list-style: none;
@@ -308,38 +308,38 @@ ul.slideshow {
   position: relative;
   margin-left: 20px;
   padding: 0;}
-  
+
 ul.slideshow li {
   position: absolute;
   margin: 0;
   padding: 0;
   left: 0;
   right: 0;}
- 
+
 ul.slideshow li.show {
   z-index: 500;}
- 
+
 ul img {
   border: none;}
- 
+
 #slideshow-caption {
   width: 600px;
   height: 210px;
   text-align: right;
   position: absolute;
   bottom: 0;
-  left: 0; 
+  left: 0;
   z-index: 500;}
- 
+
 #slideshow-caption .slideshow-caption-container {
-  padding: 20px 25px 0 5px;   
+  padding: 20px 25px 0 5px;
   z-index: 1000;}
- 
+
 #slideshow-caption p {
   padding: 0;
   font: normal 130% georgia, sans-serif;
   color: #000;}
-  
+
 /* nav widget config */
 .yui3-nav-widget .yui3-nav-widget-content li {}
 .yui3-nav-widget .yui3-nav-widget-content li:hover {}
@@ -362,11 +362,11 @@ ul img {
   display: none;
   margin: 0 0 0 100% !important;
 }
-  
+
 .yui3-nav-widget .yui3-nav-widget-content > li > ul {
   margin-top:40px !important;
 }
-.yui3-nav-widget .yui3-nav-widget-content li ul li { 
+.yui3-nav-widget .yui3-nav-widget-content li ul li {
   text-align: left;
   min-width: 120px;
   color: #000;
@@ -390,18 +390,18 @@ ul img {
 
 .yui3-nav-widget .yui3-nav-widget-content li:hover > ul,
 .yui3-nav-widget .yui3-nav-widget-content li > ul.yui3-nav-widget-active,
-.yui3-nav-widget .yui3-nav-widget-content li:focus > ul { 
+.yui3-nav-widget .yui3-nav-widget-content li:focus > ul {
   display:block !important;
   z-index:2000
 }
-  
+
 /* Vertical Options */
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical {}
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li {
   display: block;
 }
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li ul {margin-top:0}
-.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li, 
+.yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li,
 .yui3-nav-widget .yui3-nav-widget-content.yui3-nav-widget-vertical li a {
   float: none;
 }
